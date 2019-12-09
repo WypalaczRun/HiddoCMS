@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+     -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}
+body{
+    background: url('../../raios/images/bg.png');
+    background-size: cover;
+}
+.container{
+    width: 60%;
+    height: 305px;
+    margin: 0 auto;
+}
+.conteudo{
+    background: #5e8dad;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    margin-top: 156px;
+}
+#logo{
+    background: url(../../raios/images/hiddo.png) center no-repeat;
+    height: 91px;
+    width: 100%;
+    margin-top: -44px;
+    float: left;
+}
+#logo:hover{
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    cursor: pointer;
+}
+.esquerda{
+    float: left;
+    width: 48%;
+    height: auto;
+}
+.player{
+    background: url('../images/meio3.png') center;
+    float: left;
+    width: 100%;
+    height: 135px;
+    margin-top: 12px;
+}
+.base{
+    background: url(../../raios/images/base.png);
+    height: 80px;
+    width: 108px;
+    margin-left: 35px;
+    margin-top: 45px;
+    float: left;
+}
+.base img{
+    margin-left: 43px;
+    margin-top: -9px;
+}
+.base img:hover{
+    margin-top: -19px;
+}
+.locutor{
+    background: #456982;
+    height: 37px;
+    width: auto;
+    border-radius: 4px;
+    float: left;
+    margin-top: 18px;
+    margin-left: 25px;
+    color: white;
+    font-size: 13px;
+    text-align-last: center;
+    line-height: 3;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 3px solid #3b5b70;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 0px;
+}
+.locutor a{
+    padding-left: 14px;
+}
+.comandos{
+    background: #547f9d;
+    height: 46px;
+    width: 100%;
+    float: left;
+}
+.button{
+    background: #496e87;
+    width: 35px;
+    height: 26px;
+    border-radius: 55px;
+    color: #dfdfdf;
+    text-align-last: center;
+    padding-top: 9px;
+    margin-top: 4px;
+    margin-right: 4px;
+    float: right;
+}
+.discord{
+    background: #546296;
+    width: 100%;
+    height: 65px;
+    float: left;
+    color: white;
+    text-align-last: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 5;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 0px;
+}
+.discord span{
+    padding-left: 5px;
+}
+.discord:hover{
+    opacity: 0.8;
+}
+.direita{
+    float: right;
+    width: 52%;
+    height: 246px;
+    margin-top: 12px;
+}
+.data{
+    background: #e58b22;
+    height: 50%;
+    width: 100%;
+    text-align-last: center;
+    float: right;
+}
+.data a{
+    color: white;
+    text-transform: uppercase;
+    line-height: 8;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 0px;
+}
+.justifi{
+    background: #f2ac08;
+    color: white;
+    font-size: 12px;
+    height: 50%;
+    width: 100%;
+    float: right;
+}
+.justifi p{
+    padding-left: 22px;
+    padding-top: 17px;
+    padding-right: 22px;
+    padding-bottom: 8px;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 0px;
+}
+.footer{
+    float: left;
+    color: white;
+    font-size: 13px;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 0px;
+    margin-top: 55px;
+}
